@@ -1,4 +1,4 @@
-# Sanity Check
+# Rest in Peace
 
 🪦 Category: _FORENSIC_
 
