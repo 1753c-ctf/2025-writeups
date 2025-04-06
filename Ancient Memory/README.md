@@ -1,6 +1,6 @@
 # Ancient Memory
 
-📜 Category: _MISC_
+📜 Category: _REV_
 
 > Old legends were right. We've found evidence of an ancient memory. Not sure how to extract the flag it’s supposed to remember, but this Python code might be a clue...
 
