@@ -1,9 +1,8 @@
 # leakcan
 
-🧑‍💻 Category: _PWN_
-🔗 Url: https://.1753ctf.com
+🏴‍☠️ Category: _PWN_
     
-> My program is acting a bit weird, but hey, it's protected by a canary. What could possibly go wrong?
+> One of our agents never returned from his mission. We've found that he died captured by enemies. All that we got left are these backup files.
 
 ## Discovery
 

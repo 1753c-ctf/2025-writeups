@@ -1,6 +1,6 @@
 # Free flag
 
-🧑‍💻 Category: _WEB/CRYPTO_
+🤷‍♂️ Category: _WEB/CRYPTO_
 🔗 Url: https://free-flag-2e5714cdf314.1753ctf.com
 
 > Well, this task worked for me before the CTF, but now it seems to be broken. I will fix it on Monday, I promise.
