@@ -1,6 +1,6 @@
-# 🍌 Apples and Oranges MISC
+# Apples and Oranges
 
-**Category:** MISC
+🍌 Category: _MISC_
 
 > After capturing an enemy spy, the only thing we got from him was that the password is `bananafruit`. It does not seem to be right though. Can you help us?
 
