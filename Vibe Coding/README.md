@@ -1,6 +1,6 @@
 # Vibe coding
 
-🤷‍♂️ Category: _WEB/MISC_
+👴🏻 Category: _WEB/MISC_
 🔗 Url: http://vibe-coding-4659ccfb9951.1753ctf.com
 
 > Turns out this is the way to go. AI codin' when you vibin'. Can you ask Zenek to call getFlag() function for you?
