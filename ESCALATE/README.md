@@ -27,8 +27,8 @@ Then we can recive:
 ```
 so we can confirm our role now is `admın` but app read this role as  `ADMIN` so we have admin righ. Now we can use our token to get flag:
 ```bash
-curl ==path-as-is -i -s -k -X $'GET' \
-> -H $'Host: escatlate-52bc47e034fa.1753ctf.com' -H $'User-Agent: Im.cat' -H $'X-Token: 2b0b185cdbd08004698673d68697f262f2511ad8c446a98e2c058759aa4478e2' \
-> $'https://escatlate-52bc47e034fa.1753ctf.com/api/message'
+curl --path-as-is -i -s -k -X $'GET' \
+-H $'Host: escatlate-52bc47e034fa.1753ctf.com' -H $'User-Agent: Im.cat' -H $'X-Token: 2b0b185cdbd08004698673d68697f262f2511ad8c446a98e2c058759aa4478e2' \
+$'https://escatlate-52bc47e034fa.1753ctf.com/api/message'
 
 ```
