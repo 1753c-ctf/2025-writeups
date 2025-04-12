@@ -93,7 +93,7 @@ GET /files/8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918/flag
 It's a binary content in the response, so in orded not to loose anything, we'll encode it in Base64.  
 A screenshot from a Burp Suite:
 
-![burp.jpg](burp.jpg)
+![burp.png](burp.png)
 
 And we'll switch to CyberChef to:
 - decode above flag.txt encrypted content from Base64,
