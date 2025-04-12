@@ -1,7 +1,6 @@
 # Somewhere in Space
 
 👨‍🚀 Category: _OSINT_
-🔗 Url: https://entropyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy-2f567adc1e4d.1753ctf.com/
 
 > This handsome man is looking at a beautiful woman.  
 > The flag is a filename in which the woman face is stored. Use only characters that are at least in 90% visible.  

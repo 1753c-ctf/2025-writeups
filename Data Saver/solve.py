@@ -4,7 +4,7 @@ from pwn import *
 
 libc = ELF('./libc.so.6')
 if args['REMOTE']:
-    target = remote('localhost', 1337)
+    target = remote('data-saver-ab940d1f1cdf.tcp.1753ctf.com', 14980)
 elif args['DBG']:
     target = gdb.debug('./data_saver_patched',
     '''
